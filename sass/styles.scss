@@ -17,7 +17,10 @@
 
 /* Component (SMACSS module) rules */
 @import "components/misc";
-// Optionally, add your own components here.
+@import "components/header";
+@import "components/footer";
+@import "components/page-bottom";
+
 @import "print";
 
 /* SMACSS theme rules */

@@ -351,10 +351,10 @@ img {
 
   /* Responsive images */
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
   @if $legacy-support-for-ie8 {
     /* Correct IE 8 not scaling image height when resized. */
-    width: auto;
+    /*width: auto;*/
   }
 }
 

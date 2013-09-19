@@ -1,0 +1,26 @@
+#header{
+  background: #fff url('../images/bioman-header.jpg') no-repeat;
+  min-height: 130px;
+}
+
+#logo{
+  display: block;
+  margin: 15px 50px;
+  height: 100px;
+}
+
+#secondary-menu{
+  float: right;
+  top: -130px;
+  position: relative;
+  a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .9em;
+  }
+  a:hover{
+    color:#FFFF99;
+  }
+}
+
