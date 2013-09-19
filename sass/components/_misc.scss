@@ -167,6 +167,7 @@
  * Breadcrumb navigation.
  */
 .breadcrumb {
+  font-size:.75em;
   ol {
     margin: 0;
     padding: 0;
@@ -176,6 +177,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+  li:after{
+    color: darken($link-color, 40%);
+    content: ' > ';
   }
 }
 
@@ -499,9 +504,9 @@ span.field-label {
 }
 
 /* The active item in a Drupal menu. */
-.menu a.active {
-  color: #000;
-}
+/*.menu a.active {*/
+/*  color: #000;*/
+/*}*/
 
 /**
  * Marker.
@@ -808,4 +813,24 @@ tr.selected td {
 
 #page{
   border: 2px solid #085C1C;
+}
+
+input{
+  border: 1px solid $link-color;
+  color: $link-color;
+}
+
+a{
+  color: $link-color;
+  text-decoration: none;
+}
+a.active{
+  text-decoration: underline;
+}
+a:hover{
+  color: #779141;
+}
+
+#page{
+  margin: 10px auto;
 }
