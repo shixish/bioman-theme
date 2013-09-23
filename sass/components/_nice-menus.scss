@@ -1,0 +1,21 @@
+#nice-menu-1{
+  border: none;
+  text-align:center;
+  float: none;
+  a{
+    @extend a;
+  }
+  li{
+    background-color: white;
+    text-align: left;
+    float:none;
+    display:inline-block;
+  }
+  &>li{
+    border: none;
+    margin-right: 1.5em;
+    &>a{
+      text-transform: uppercase;
+    }
+  }
+}

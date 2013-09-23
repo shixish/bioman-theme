@@ -1,0 +1,27 @@
+.view-images-on-homepage{
+  margin: .2em;
+  padding: .3em;
+  background: #eee;
+  @include border-radius(.4em);
+  
+  .views-field.views-field-field-image {
+    float: left;
+    margin-right: 20px;
+  }
+  .views-field.views-field-title {
+    padding-top: .5em;
+    font-size: 1.3em;
+  }
+  /*.views-field.views-field-body {*/
+  /*  display: inline-block;*/
+  /*}*/
+  
+  .views-slideshow-cycle-main-frame, .views-slideshow-cycle-main-frame-row{
+    width: 100% !important;
+  }
+  
+  .views-slideshow-pager-field-item {
+    display: inline-block;
+    cursor: pointer;
+  }
+}
