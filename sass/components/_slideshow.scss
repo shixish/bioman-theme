@@ -4,17 +4,14 @@
   background: #eee;
   @include border-radius(.4em);
   
-  .views-field.views-field-field-image {
+  .views-field-field-image {
     float: left;
-    margin-right: 20px;
+    margin-right: 1em;
   }
-  /*.views-field.views-field-title {*/
-  /*  padding-top: .5em;*/
-  /*  font-size: 1.3em;*/
-  /*}*/
-  /*.views-field.views-field-body {*/
-  /*  display: inline-block;*/
-  /*}*/
+  .views-field-title .field-content {
+    margin: 0;
+    padding-top: .5em;
+  }
   
   .views-slideshow-cycle-main-frame, .views-slideshow-cycle-main-frame-row{
     width: 100% !important;
