@@ -1862,13 +1862,25 @@ a:hover, #nice-menu-1 a:hover {
 }
 
 /* line 1, ../sass/components/_views.scss */
-.views-row-last {
-  margin-bottom: 0;
+.views-row {
+  margin-bottom: 1em;
 }
 
 /* line 4, ../sass/components/_views.scss */
-.views-row {
-  margin-bottom: 1em;
+.views-row.views-row-last {
+  margin-bottom: 0;
+}
+
+/* line 9, ../sass/components/_views.scss */
+.separated.views-row {
+  padding-bottom: 1em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #085C1C;
+}
+/* line 14, ../sass/components/_views.scss */
+.separated.views-row.views-row-last {
+  margin-bottom: 0;
+  border-bottom: none;
 }
 
 /* line 1, ../sass/components/_footer.scss */
