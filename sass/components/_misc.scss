@@ -828,7 +828,7 @@ a.active{
   text-decoration: underline;
 }
 a:hover{
-  color: #779141;
+  color: $link-hover-color;
 }
 
 #page{
