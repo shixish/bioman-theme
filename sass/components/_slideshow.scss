@@ -4,11 +4,11 @@
   background: #eee;
   @include border-radius(.4em);
   
-  .views-field-field-image {
+  .views-field.views-field-field-image {
     float: left;
     margin-right: 1em;
   }
-  .views-field-title .field-content {
+  .views-field.views-field-title .field-content {
     margin: 0;
     padding-top: .5em;
   }
