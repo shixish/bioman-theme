@@ -1744,29 +1744,6 @@ a:hover, #nice-menu-1 a:hover {
   margin: 10px auto;
 }
 
-/* line 1, ../sass/components/_nice-menus.scss */
-#nice-menu-1 {
-  border: none;
-  text-align: center;
-  float: none;
-}
-/* line 8, ../sass/components/_nice-menus.scss */
-#nice-menu-1 li {
-  background-color: white;
-  text-align: left;
-  float: none;
-  display: inline-block;
-}
-/* line 14, ../sass/components/_nice-menus.scss */
-#nice-menu-1 > li {
-  border: none;
-  margin-right: 1.5em;
-}
-/* line 17, ../sass/components/_nice-menus.scss */
-#nice-menu-1 > li > a {
-  text-transform: uppercase;
-}
-
 /* line 1, ../sass/components/_header.scss */
 #header {
   background: white url("../images/bioman-header.jpg") no-repeat;
@@ -1822,6 +1799,29 @@ a:hover, #nice-menu-1 a:hover {
   z-index: 100;
 }
 
+/* line 1, ../sass/components/_nice-menus.scss */
+#nice-menu-1 {
+  border: none;
+  text-align: center;
+  float: none;
+}
+/* line 8, ../sass/components/_nice-menus.scss */
+#nice-menu-1 li {
+  background-color: white;
+  text-align: left;
+  float: none;
+  display: inline-block;
+}
+/* line 14, ../sass/components/_nice-menus.scss */
+#nice-menu-1 > li {
+  border: none;
+  margin-right: 1.5em;
+}
+/* line 17, ../sass/components/_nice-menus.scss */
+#nice-menu-1 > li > a {
+  text-transform: uppercase;
+}
+
 /* line 1, ../sass/components/_slideshow.scss */
 .view-images-on-homepage {
   margin: .2em;
@@ -1859,6 +1859,16 @@ a:hover, #nice-menu-1 a:hover {
 #main {
   background: #eaf5e9 url("../images/green-gradient.jpg") top repeat-x;
   padding-bottom: 1.5em;
+}
+
+/* line 1, ../sass/components/_views.scss */
+.views-row-last {
+  margin-bottom: 0;
+}
+
+/* line 4, ../sass/components/_views.scss */
+.views-row {
+  margin-bottom: 1em;
 }
 
 /* line 1, ../sass/components/_footer.scss */
