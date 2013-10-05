@@ -1,0 +1,18 @@
+.views-row {
+  margin-bottom: 1em;
+}
+.views-row.views-row-last {
+  margin-bottom: 0;
+}
+
+.separated{
+  &.views-row {
+    padding-bottom: 1em;
+    margin-bottom: .5em;
+    border-bottom: 1px solid #085C1C;
+  }
+  &.views-row.views-row-last {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}
