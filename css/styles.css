@@ -1714,12 +1714,12 @@ tr.selected td {
 
 /* line 814, ../sass/components/_misc.scss */
 #page {
-  border: 1px solid #085C1C;
+  border: 1px solid #085c1c;
 }
 
 /* line 818, ../sass/components/_misc.scss */
 input {
-  border: 1px solid #0a6320;
+  border: 1px solid #085c1c;
   color: #0a6320;
 }
 
@@ -1740,6 +1740,17 @@ a:hover, #nice-menu-1 a:hover {
 }
 
 /* line 834, ../sass/components/_misc.scss */
+#secondary-menu a, #footer a {
+  color: white;
+  text-decoration: none;
+  font-size: .9em;
+}
+/* line 838, ../sass/components/_misc.scss */
+#secondary-menu a:hover, #footer a:hover {
+  color: #ffff99;
+}
+
+/* line 843, ../sass/components/_misc.scss */
 #page {
   margin: 10px auto;
 }
@@ -1763,43 +1774,36 @@ a:hover, #nice-menu-1 a:hover {
 }
 /* line 14, ../sass/components/_header.scss */
 #secondary-menu a {
-  color: white;
   text-transform: uppercase;
-  text-decoration: none;
-  font-size: .9em;
-}
-/* line 20, ../sass/components/_header.scss */
-#secondary-menu a:hover {
-  color: #FFFF99;
 }
 
-/* line 25, ../sass/components/_header.scss */
+/* line 20, ../sass/components/_header.scss */
 #navigation {
   background: white url("../images/green-gradient.jpg") bottom repeat-x;
   padding-bottom: 22px;
 }
 
-/* line 30, ../sass/components/_header.scss */
+/* line 25, ../sass/components/_header.scss */
 #block-system-main-menu {
   text-align: center;
 }
-/* line 32, ../sass/components/_header.scss */
+/* line 27, ../sass/components/_header.scss */
 #block-system-main-menu .menu {
   display: inline-block;
 }
-/* line 34, ../sass/components/_header.scss */
+/* line 29, ../sass/components/_header.scss */
 #block-system-main-menu .menu a {
   text-transform: uppercase;
   font-size: 1.2em;
 }
 
-/* line 41, ../sass/components/_header.scss */
+/* line 36, ../sass/components/_header.scss */
 #block-search-form {
   float: right;
   z-index: 100;
 }
 
-/* line 46, ../sass/components/_header.scss */
+/* line 41, ../sass/components/_header.scss */
 .block-nice-menus {
   z-index: 50;
 }
@@ -1890,6 +1894,18 @@ a:hover, #nice-menu-1 a:hover {
 #footer {
   background-color: #199c48;
   font-size: .75em;
+  text-align: center;
+}
+/* line 6, ../sass/components/_footer.scss */
+#footer .menu li {
+  display: inline;
+  border-right: 1px solid #085c1c;
+  padding-right: 8px;
+  margin: 0 2px;
+}
+/* line 11, ../sass/components/_footer.scss */
+#footer .menu li.last {
+  border: none;
 }
 
 /* line 1, ../sass/components/_page-bottom.scss */
