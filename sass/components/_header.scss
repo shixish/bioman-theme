@@ -11,6 +11,7 @@
 
 #secondary-menu{
   float: right;
+  margin-top: 1ex;
   a{
     @extend %secondary_links;
     text-transform: uppercase;
@@ -22,7 +23,7 @@
   padding-bottom: 22px;
 }
 
-#block-system-main-menu{
+/*#block-system-main-menu{
   text-align: center;
   .menu{
     display: inline-block;
@@ -31,7 +32,7 @@
       font-size: 1.2em;
     }
   }
-}
+}*/
 
 #block-search-form{
   float: right;

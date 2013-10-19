@@ -823,9 +823,11 @@ input{
 a{
   color: $link-color;
   text-decoration: none;
+  font-weight: bold;
 }
 a.active{
   text-decoration: underline;
+  //color: scale-lightness($link-color, -30);
 }
 a:hover{
   color: $link-hover-color;
