@@ -1,0 +1,8 @@
+$sidebar-separation-color: scale-saturation(scale-lightness($body-background-color, -15), -20);
+
+.region-sidebar-first{
+  border-right:1px solid $sidebar-separation-color;
+}
+.region-sidebar-second{
+  border-left:1px solid $sidebar-separation-color;
+}
