@@ -1866,26 +1866,14 @@ a:hover, #navigation .nice-menu-down a:hover {
   padding-bottom: 1.5em;
 }
 
-/* line 1, ../sass/components/_views.scss */
-.views-row {
-  margin-bottom: 1em;
+/* line 3, ../sass/components/_sidebars.scss */
+.region-sidebar-first {
+  border-right: 1px solid #bedbbc;
 }
 
-/* line 4, ../sass/components/_views.scss */
-.views-row.views-row-last {
-  margin-bottom: 0;
-}
-
-/* line 9, ../sass/components/_views.scss */
-.separated.views-row {
-  padding-bottom: 1em;
-  margin-bottom: .5em;
-  border-bottom: 1px solid #085C1C;
-}
-/* line 14, ../sass/components/_views.scss */
-.separated.views-row.views-row-last {
-  margin-bottom: 0;
-  border-bottom: none;
+/* line 6, ../sass/components/_sidebars.scss */
+.region-sidebar-second {
+  border-left: 1px solid #bedbbc;
 }
 
 /* line 1, ../sass/components/_footer.scss */
