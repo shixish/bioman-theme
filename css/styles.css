@@ -1709,7 +1709,7 @@ tr.selected td {
 /* line 808, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1380937254');
+  background-image: url('../images/progress.gif?1382175212');
 }
 
 /* line 814, ../sass/components/_misc.scss */
@@ -1811,10 +1811,6 @@ a:hover, #navigation .nice-menu-down a:hover {
   border: none;
   text-align: center;
   float: none;
-}
-/* line 5, ../sass/components/_nice-menus.scss */
-#navigation .nice-menu-down a {
-  font-size: 1.1em;
 }
 /* line 9, ../sass/components/_nice-menus.scss */
 #navigation .nice-menu-down li {
