@@ -112,7 +112,7 @@ audio:not([controls]) {
  */
 /* line 106, ../sass/_normalize.scss */
 html {
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   /* 1 */
   font-size: 81.25%;
   /* 3 */
@@ -138,15 +138,15 @@ body {
  */
 /* Address `outline` inconsistency between Chrome and other browsers. */
 /* line 148, ../sass/_normalize.scss */
-a:focus, #nice-menu-1 a:focus {
+a:focus, #navigation .nice-menu-down a:focus {
   outline: thin dotted;
 }
 
 /* Improve readability when focused and also mouse hovered in all browsers. */
 /* line 154, ../sass/_normalize.scss */
-a:active, #nice-menu-1 a:active,
+a:active, #navigation .nice-menu-down a:active,
 a:hover,
-#nice-menu-1 a:hover {
+#navigation .nice-menu-down a:hover {
   outline: 0;
 }
 
@@ -914,7 +914,7 @@ table {
   margin: 0;
 }
 /* line 66, ../sass/components/_misc.scss */
-#skip-link a,
+#skip-link a, #skip-link #navigation .nice-menu-down a, #navigation .nice-menu-down #skip-link a,
 #skip-link a:visited {
   display: block;
   width: 100%;
@@ -1306,7 +1306,7 @@ span.field-label {
 }
 
 /* line 430, ../sass/components/_misc.scss */
-.more-help-link a, .more-help-link #nice-menu-1 a, #nice-menu-1 .more-help-link a {
+.more-help-link a, .more-help-link #navigation .nice-menu-down a, #navigation .nice-menu-down .more-help-link a {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7UlEQVR42qWTPQqDQBCFcwSPkCNITpAj5AjeIm1uYpkyR7Cy2Mot7OwsBAsRwUKwmOwLGRle3EIy8PyBfZ/z3J2TiPylz8VWWZZpUB40BonRKyizaxkA88MYYiqCEgv4MTvnZJom0VqWRbz3FlJZgLYtqmEY1Lg9r+sKsIXcLSC3AC019H0vqLquLeC5AfiHYSGkcdAJimKIBQiJ4+CO92OAtm0FNc8zOjkMwE5Q63FAtbeg6zpAYvG8BWR7i5qmQYwY4MIHqYhE2DOPQWcGJBQF2XU72ZzyUeZ5GCNt5/hybJgYdAXsq5sOEE/jG6dC5IOqCXTmAAAAAElFTkSuQmCC');
   background-position: 0 50%;
   /* LTR */
@@ -1511,7 +1511,7 @@ label.option {
 
 /* Buttons used by contrib modules like Media. */
 /* line 635, ../sass/components/_misc.scss */
-a.button, #nice-menu-1 a.button {
+a.button, #navigation .nice-menu-down a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -1714,32 +1714,44 @@ tr.selected td {
 
 /* line 814, ../sass/components/_misc.scss */
 #page {
-  border: 2px solid #085C1C;
+  border: 1px solid #085c1c;
 }
 
 /* line 818, ../sass/components/_misc.scss */
 input {
-  border: 1px solid #0a6320;
+  border: 1px solid #085c1c;
   color: #0a6320;
 }
 
 /* line 823, ../sass/components/_misc.scss */
-a, #nice-menu-1 a {
+a, #navigation .nice-menu-down a {
   color: #0a6320;
   text-decoration: none;
+  font-weight: bold;
 }
 
-/* line 827, ../sass/components/_misc.scss */
-a.active, #nice-menu-1 a.active {
+/* line 828, ../sass/components/_misc.scss */
+a.active, #navigation .nice-menu-down a.active {
   text-decoration: underline;
 }
 
-/* line 830, ../sass/components/_misc.scss */
-a:hover, #nice-menu-1 a:hover {
+/* line 832, ../sass/components/_misc.scss */
+a:hover, #navigation .nice-menu-down a:hover {
   color: #779141;
 }
 
-/* line 834, ../sass/components/_misc.scss */
+/* line 836, ../sass/components/_misc.scss */
+#secondary-menu a, #footer a {
+  color: white;
+  text-decoration: none;
+  font-size: .9em;
+}
+/* line 840, ../sass/components/_misc.scss */
+#secondary-menu a:hover, #footer a:hover {
+  color: #ffff99;
+}
+
+/* line 845, ../sass/components/_misc.scss */
 #page {
   margin: 10px auto;
 }
@@ -1753,72 +1765,67 @@ a:hover, #nice-menu-1 a:hover {
 /* line 6, ../sass/components/_header.scss */
 #logo {
   display: block;
-  margin-left: 50px;
-  margin-top: 15px;
+  margin-left: 33px;
+  margin-top: 17px;
 }
 
 /* line 12, ../sass/components/_header.scss */
 #secondary-menu {
   float: right;
+  margin-top: 1ex;
 }
-/* line 14, ../sass/components/_header.scss */
-#secondary-menu a {
-  color: white;
+/* line 15, ../sass/components/_header.scss */
+#secondary-menu a, #secondary-menu #navigation .nice-menu-down a, #navigation .nice-menu-down #secondary-menu a {
   text-transform: uppercase;
-  text-decoration: none;
-  font-size: .9em;
-}
-/* line 20, ../sass/components/_header.scss */
-#secondary-menu a:hover {
-  color: #FFFF99;
 }
 
-/* line 25, ../sass/components/_header.scss */
+/* line 21, ../sass/components/_header.scss */
 #navigation {
   background: white url("../images/green-gradient.jpg") bottom repeat-x;
   padding-bottom: 22px;
 }
 
-/* line 30, ../sass/components/_header.scss */
-#block-system-main-menu {
+/*#block-system-main-menu{
   text-align: center;
-}
-/* line 32, ../sass/components/_header.scss */
-#block-system-main-menu .menu {
-  display: inline-block;
-}
-/* line 34, ../sass/components/_header.scss */
-#block-system-main-menu .menu a {
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
-
-/* line 41, ../sass/components/_header.scss */
+  .menu{
+    display: inline-block;
+    a{
+      text-transform: uppercase;
+      font-size: 1.2em;
+    }
+  }
+}*/
+/* line 37, ../sass/components/_header.scss */
 #block-search-form {
   float: right;
   z-index: 100;
 }
 
+/* line 42, ../sass/components/_header.scss */
+.block-nice-menus, .nice-menu {
+  z-index: 50;
+}
+
 /* line 1, ../sass/components/_nice-menus.scss */
-#nice-menu-1 {
+#navigation .nice-menu-down {
   border: none;
   text-align: center;
   float: none;
 }
-/* line 8, ../sass/components/_nice-menus.scss */
-#nice-menu-1 li {
+/* line 9, ../sass/components/_nice-menus.scss */
+#navigation .nice-menu-down li {
   background-color: white;
   text-align: left;
   float: none;
   display: inline-block;
 }
-/* line 14, ../sass/components/_nice-menus.scss */
-#nice-menu-1 > li {
+/* line 15, ../sass/components/_nice-menus.scss */
+#navigation .nice-menu-down > li {
   border: none;
   margin-right: 1.5em;
 }
-/* line 17, ../sass/components/_nice-menus.scss */
-#nice-menu-1 > li > a {
+/* line 18, ../sass/components/_nice-menus.scss */
+#navigation .nice-menu-down > li > a {
   text-transform: uppercase;
 }
 
@@ -1881,10 +1888,32 @@ a:hover, #nice-menu-1 a:hover {
   border-bottom: none;
 }
 
+/* line 3, ../sass/components/_sidebars.scss */
+.region-sidebar-first {
+  border-right: 1px solid #bedbbc;
+}
+
+/* line 6, ../sass/components/_sidebars.scss */
+.region-sidebar-second {
+  border-left: 1px solid #bedbbc;
+}
+
 /* line 1, ../sass/components/_footer.scss */
 #footer {
   background-color: #199c48;
-  font-size: .75em;
+  font-size: .9em;
+  text-align: center;
+}
+/* line 6, ../sass/components/_footer.scss */
+#footer .menu li {
+  display: inline;
+  border-right: 1px solid #085c1c;
+  padding-right: 8px;
+  margin: 0 2px;
+}
+/* line 11, ../sass/components/_footer.scss */
+#footer .menu li.last {
+  border: none;
 }
 
 /* line 1, ../sass/components/_page-bottom.scss */
@@ -1906,16 +1935,16 @@ a:hover, #nice-menu-1 a:hover {
 @media print {
   /* Underline all links. */
   /* line 16, ../sass/_print.scss */
-  a:link, #nice-menu-1 a:link,
+  a:link, #navigation .nice-menu-down a:link,
   a:visited,
-  #nice-menu-1 a:visited {
+  #navigation .nice-menu-down a:visited {
     text-decoration: underline !important;
     /* Don't underline header. */
   }
   /* line 20, ../sass/_print.scss */
-  a:link.header__site-link, #nice-menu-1 a:link.header__site-link,
+  a:link.header__site-link, #navigation .nice-menu-down a:link.header__site-link,
   a:visited.header__site-link,
-  #nice-menu-1 a:visited.header__site-link {
+  #navigation .nice-menu-down a:visited.header__site-link {
     text-decoration: none !important;
   }
 

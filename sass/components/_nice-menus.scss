@@ -1,9 +1,10 @@
-#nice-menu-1{
+#navigation .nice-menu-down{
   border: none;
   text-align:center;
   float: none;
   a{
     @extend a;
+    //font-size:1.05em;
   }
   li{
     background-color: white;

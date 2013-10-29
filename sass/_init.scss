@@ -86,13 +86,20 @@ $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $verdana; // The font family set on the html element.
-$font-body:        $verdana;
+$base-font-family: $arial; // The font family set on the html element.
+$font-body:        $arial;
 $font-monospace:   $courier;
 
 //Andrew Added:
 $link-color: #0A6320;
 $link-hover-color: #779141;
+
+$secondary-link-color: white;
+$secondary-link-hover-color: #FFFF99;
+
+$border-color: #085C1C;
+
+$body-background-color: #EAF5E9;
 
 //
 // Colors, etc.

@@ -812,25 +812,37 @@ tr.selected td {
 }
 
 #page{
-  border: 2px solid #085C1C;
+  border: 1px solid $border-color;
 }
 
 input{
-  border: 1px solid $link-color;
+  border: 1px solid $border-color;
   color: $link-color;
 }
 
 a{
   color: $link-color;
   text-decoration: none;
+  font-weight: bold;
 }
 a.active{
   text-decoration: underline;
+  //color: scale-lightness($link-color, -30);
 }
 a:hover{
   color: $link-hover-color;
 }
 
+%secondary_links{
+  color: $secondary-link-color;
+  text-decoration: none;
+  font-size: .9em;
+  &:hover{
+    color: $secondary-link-hover-color;
+  }
+}
+
 #page{
   margin: 10px auto;
 }
+
