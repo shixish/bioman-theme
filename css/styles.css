@@ -1860,12 +1860,15 @@ a:hover, #navigation .nice-menu-down a:hover {
   cursor: pointer;
 }
 /* line 25, ../sass/components/_slideshow.scss */
-.view-images-on-homepage .views-slideshow-pager-fields {
+.view-images-on-homepage .views-slideshow-controls-bottom {
   text-align: center;
+}
+/* line 29, ../sass/components/_slideshow.scss */
+.view-images-on-homepage .views-slideshow-pager-fields {
+  display: inline-block;
   border-top: 1px solid #BEDBBC;
-  padding-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 5px;
+  padding-bottom: 0;
   margin-top: 2px;
 }
 

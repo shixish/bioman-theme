@@ -22,12 +22,15 @@
     cursor: pointer;
   }
   
-  .views-slideshow-pager-fields{
+  .views-slideshow-controls-bottom{
     text-align: center;
+  }
+  
+  .views-slideshow-pager-fields{
+    display:inline-block;
     border-top: 1px solid #BEDBBC;
-    padding-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 5px;
+    padding-bottom: 0;
     margin-top: 2px;
   }
 }
