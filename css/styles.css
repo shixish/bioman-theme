@@ -1803,7 +1803,7 @@ a:hover, #navigation .nice-menu-down a:hover {
 
 /* line 42, ../sass/components/_header.scss */
 .block-nice-menus, .nice-menu {
-  z-index: 50;
+  z-index: 50 !important;
 }
 
 /* line 1, ../sass/components/_nice-menus.scss */
@@ -1858,6 +1858,15 @@ a:hover, #navigation .nice-menu-down a:hover {
 .view-images-on-homepage .views-slideshow-pager-field-item {
   display: inline-block;
   cursor: pointer;
+}
+/* line 25, ../sass/components/_slideshow.scss */
+.view-images-on-homepage .views-slideshow-pager-fields {
+  text-align: center;
+  border-top: 1px solid #BEDBBC;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
 }
 
 /* line 1, ../sass/components/_main.scss */
