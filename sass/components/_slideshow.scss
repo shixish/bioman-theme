@@ -4,7 +4,7 @@
   background: #eee;
   @include border-radius(.4em);
   
-  .views-field.views-field-field-image {
+  .views-field.views-field-field-image, .file-image {
     float: left;
     margin-right: 1em;
   }

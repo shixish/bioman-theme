@@ -1841,7 +1841,7 @@ a:hover, #navigation .nice-menu-down a:hover {
   border-radius: 0.4em;
 }
 /* line 7, ../sass/components/_slideshow.scss */
-.view-images-on-homepage .views-field.views-field-field-image {
+.view-images-on-homepage .views-field.views-field-field-image, .view-images-on-homepage .file-image {
   float: left;
   margin-right: 1em;
 }
