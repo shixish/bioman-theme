@@ -1831,39 +1831,40 @@ a:hover, #navigation .nice-menu-down a:hover {
 
 /* line 1, ../sass/components/_slideshow.scss */
 .view-images-on-homepage {
-  margin: .2em;
+  margin: .2em auto;
   padding: .3em;
   background: #eee;
+  max-width: 1000px;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
   -o-border-radius: 0.4em;
   border-radius: 0.4em;
 }
-/* line 7, ../sass/components/_slideshow.scss */
+/* line 8, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-field.views-field-field-image, .view-images-on-homepage .file-image {
   float: left;
   margin-right: 1em;
 }
-/* line 11, ../sass/components/_slideshow.scss */
+/* line 12, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-field.views-field-title .field-content {
   margin: 0;
   padding-top: .5em;
 }
-/* line 16, ../sass/components/_slideshow.scss */
+/* line 17, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-slideshow-cycle-main-frame, .view-images-on-homepage .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
 }
-/* line 20, ../sass/components/_slideshow.scss */
+/* line 21, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-slideshow-pager-field-item {
   display: inline-block;
   cursor: pointer;
 }
-/* line 25, ../sass/components/_slideshow.scss */
+/* line 26, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-slideshow-controls-bottom {
   text-align: center;
 }
-/* line 29, ../sass/components/_slideshow.scss */
+/* line 30, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-slideshow-pager-fields {
   display: inline-block;
   border-top: 1px solid #BEDBBC;
