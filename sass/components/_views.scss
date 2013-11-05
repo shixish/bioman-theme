@@ -1,5 +1,11 @@
 .views-row {
   margin-bottom: 1em;
+  &.white-background{
+    background:white;
+    padding: 5px;
+    @include border-radius(3px);
+    border: 1px solid #ddd;
+  }
 }
 .views-row.views-row-last {
   margin-bottom: 0;
@@ -15,4 +21,8 @@
     margin-bottom: 0;
     border-bottom: none;
   }
+}
+
+.views-field-field-banner-image .field-content{
+  line-height:0; //this was adding a little extra padding under the image...
 }

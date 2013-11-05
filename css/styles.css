@@ -1834,7 +1834,7 @@ a:hover, #navigation .nice-menu-down a:hover {
   margin: .2em auto;
   padding: .3em;
   background: #eee;
-  max-width: 1000px;
+  max-width: 900px;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
@@ -1883,22 +1883,38 @@ a:hover, #navigation .nice-menu-down a:hover {
 .views-row {
   margin-bottom: 1em;
 }
+/* line 3, ../sass/components/_views.scss */
+.views-row.white-background {
+  background: white;
+  padding: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
 
-/* line 4, ../sass/components/_views.scss */
+/* line 10, ../sass/components/_views.scss */
 .views-row.views-row-last {
   margin-bottom: 0;
 }
 
-/* line 9, ../sass/components/_views.scss */
+/* line 15, ../sass/components/_views.scss */
 .separated.views-row {
   padding-bottom: 1em;
   margin-bottom: .5em;
   border-bottom: 1px solid #085C1C;
 }
-/* line 14, ../sass/components/_views.scss */
+/* line 20, ../sass/components/_views.scss */
 .separated.views-row.views-row-last {
   margin-bottom: 0;
   border-bottom: none;
+}
+
+/* line 26, ../sass/components/_views.scss */
+.views-field-field-banner-image .field-content {
+  line-height: 0;
 }
 
 /* line 3, ../sass/components/_sidebars.scss */
