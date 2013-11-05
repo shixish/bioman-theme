@@ -182,48 +182,48 @@ h1 {
   font-size: 1.4em;
   line-height: 1.75824em;
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 0.87912em;
-  margin-bottom: 0.87912em;
+  margin-top: 0.43956em;
+  margin-bottom: 0.43956em;
 }
 
 /* line 190, ../sass/_normalize.scss */
 h2 {
   font-size: 1.2em;
   line-height: 2.05128em;
-  margin-top: 1.02564em;
-  margin-bottom: 1.02564em;
+  margin-top: 0.51282em;
+  margin-bottom: 0.51282em;
 }
 
 /* line 195, ../sass/_normalize.scss */
 h3 {
   font-size: 1.1em;
   line-height: 2.23776em;
-  margin-top: 1.11888em;
-  margin-bottom: 1.11888em;
+  margin-top: 0.55944em;
+  margin-bottom: 0.55944em;
 }
 
 /* line 200, ../sass/_normalize.scss */
 h4 {
   font-size: 1em;
   line-height: 2.46154em;
-  margin-top: 1.23077em;
-  margin-bottom: 1.23077em;
+  margin-top: 0.61538em;
+  margin-bottom: 0.61538em;
 }
 
 /* line 205, ../sass/_normalize.scss */
 h5 {
   font-size: 0.83em;
   line-height: 1.48285em;
-  margin-top: 1.48285em;
-  margin-bottom: 1.48285em;
+  margin-top: 0.74143em;
+  margin-bottom: 0.74143em;
 }
 
 /* line 210, ../sass/_normalize.scss */
 h6 {
   font-size: 0.67em;
   line-height: 1.83697em;
-  margin-top: 1.83697em;
-  margin-bottom: 1.83697em;
+  margin-top: 0.91848em;
+  margin-bottom: 0.91848em;
 }
 
 /* Address styling not present in IE 8/9, Safari 5, and Chrome. */
@@ -1909,6 +1909,16 @@ a:hover, #navigation .nice-menu-down a:hover {
 /* line 6, ../sass/components/_sidebars.scss */
 .region-sidebar-second {
   border-left: 1px solid #bedbbc;
+}
+
+/* line 11, ../sass/components/_sidebars.scss */
+.sidebar h2.node-title {
+  line-height: 1.4em;
+  font-size: 1.1em;
+}
+/* line 15, ../sass/components/_sidebars.scss */
+.sidebar p, .sidebar pre {
+  margin: 0.61538em 0;
 }
 
 /* line 1, ../sass/components/_footer.scss */

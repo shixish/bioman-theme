@@ -6,3 +6,13 @@ $sidebar-separation-color: scale-saturation(scale-lightness($body-background-col
 .region-sidebar-second{
   border-left:1px solid $sidebar-separation-color;
 }
+
+.sidebar{
+  h2.node-title {
+    line-height: 1.4em;
+    font-size: 1.1em;
+  }
+  p, pre {
+    margin: rhythm(0.5) 0;
+  }
+}
