@@ -26,3 +26,38 @@
 .views-field-field-banner-image .field-content{
   line-height:0; //this was adding a little extra padding under the image...
 }
+
+.views-field-field-free-tags{
+  font-size: 1.5ex;
+}
+
+.views-view-grid{
+  text-align: center;
+  td{
+    vertical-align: top;
+    padding: 1em 1ex;
+    /*border: 1px dashed #DDD;*/
+  }
+}
+
+.vertical-center{
+  vertical-align: center;
+}
+
+
+
+.cols-2 td{
+  width:50%;
+}
+.cols-3 td{
+  width:33.3333%;
+}
+.cols-4 td{
+  width:25%;
+}
+.cols-5 td{
+  width:20%;
+}
+.cols-6 td{
+  width:1.6667%;
+}

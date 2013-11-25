@@ -572,7 +572,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   /* Prevent cramped-looking tables */
-  /* width: 100%; */
+  width: 100%;
   /* Add vertical rhythm margins. */
   margin-top: 1.23077em;
   margin-bottom: 1.23077em;
@@ -1915,6 +1915,52 @@ a:hover, #navigation .nice-menu-down a:hover {
 /* line 26, ../sass/components/_views.scss */
 .views-field-field-banner-image .field-content {
   line-height: 0;
+}
+
+/* line 30, ../sass/components/_views.scss */
+.views-field-field-free-tags {
+  font-size: 1.5ex;
+}
+
+/* line 34, ../sass/components/_views.scss */
+.views-view-grid {
+  text-align: center;
+}
+/* line 36, ../sass/components/_views.scss */
+.views-view-grid td {
+  vertical-align: top;
+  padding: 1em 1ex;
+  /*border: 1px dashed #DDD;*/
+}
+
+/* line 43, ../sass/components/_views.scss */
+.vertical-center {
+  vertical-align: center;
+}
+
+/* line 49, ../sass/components/_views.scss */
+.cols-2 td {
+  width: 50%;
+}
+
+/* line 52, ../sass/components/_views.scss */
+.cols-3 td {
+  width: 33.3333%;
+}
+
+/* line 55, ../sass/components/_views.scss */
+.cols-4 td {
+  width: 25%;
+}
+
+/* line 58, ../sass/components/_views.scss */
+.cols-5 td {
+  width: 20%;
+}
+
+/* line 61, ../sass/components/_views.scss */
+.cols-6 td {
+  width: 1.6667%;
 }
 
 /* line 3, ../sass/components/_sidebars.scss */
