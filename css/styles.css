@@ -1903,64 +1903,99 @@ a:hover, #navigation .nice-menu-down a:hover {
 /* line 15, ../sass/components/_views.scss */
 .separated.views-row {
   padding-bottom: 1em;
-  margin-bottom: .5em;
   border-bottom: 1px solid #085C1C;
 }
-/* line 20, ../sass/components/_views.scss */
+/* line 19, ../sass/components/_views.scss */
 .separated.views-row.views-row-last {
-  margin-bottom: 0;
   border-bottom: none;
 }
 
-/* line 26, ../sass/components/_views.scss */
+/* line 24, ../sass/components/_views.scss */
 .views-field-field-banner-image .field-content {
   line-height: 0;
 }
 
-/* line 30, ../sass/components/_views.scss */
+/* line 28, ../sass/components/_views.scss */
 .views-field-field-free-tags {
   font-size: 1.5ex;
 }
 
-/* line 34, ../sass/components/_views.scss */
+/* line 32, ../sass/components/_views.scss */
 .views-view-grid {
   text-align: center;
 }
-/* line 36, ../sass/components/_views.scss */
+/* line 34, ../sass/components/_views.scss */
 .views-view-grid td {
   vertical-align: top;
   padding: 1em 1ex;
   /*border: 1px dashed #DDD;*/
 }
 
-/* line 43, ../sass/components/_views.scss */
+/* line 41, ../sass/components/_views.scss */
 .vertical-center {
   vertical-align: center;
 }
 
-/* line 49, ../sass/components/_views.scss */
+/* line 45, ../sass/components/_views.scss */
+.callout-view {
+  border: 1px solid #b8ddb4;
+  background: #f1f8f0;
+}
+
+/* line 52, ../sass/components/_views.scss */
+.stripe-view h3 {
+  text-transform: uppercase;
+}
+
+/*$unformatted-list-border-color: darken($body-background-color, 20%);
+%unformatted-borders{
+  padding: 1ex;
+  margin-bottom: 0;
+  border-left: 1px solid $unformatted-list-border-color;
+  border-right: 1px solid $unformatted-list-border-color;
+  &.views-row-first{
+    border-top: 1px solid $unformatted-list-border-color;
+  }
+  &.views-row-last{
+    border-bottom: 1px solid $unformatted-list-border-color;
+  }
+}
+div.views-row-odd {
+  background: lighten($body-background-color, 1.5%);
+  @extend %unformatted-borders;
+}
+div.views-row-even {
+  background: darken($body-background-color, 3%);
+  @extend %unformatted-borders;  
+}*/
+/* line 81, ../sass/components/_views.scss */
 .cols-2 td {
   width: 50%;
 }
 
-/* line 52, ../sass/components/_views.scss */
+/* line 84, ../sass/components/_views.scss */
 .cols-3 td {
   width: 33.3333%;
 }
 
-/* line 55, ../sass/components/_views.scss */
+/* line 87, ../sass/components/_views.scss */
 .cols-4 td {
   width: 25%;
 }
 
-/* line 58, ../sass/components/_views.scss */
+/* line 90, ../sass/components/_views.scss */
 .cols-5 td {
   width: 20%;
 }
 
-/* line 61, ../sass/components/_views.scss */
+/* line 93, ../sass/components/_views.scss */
 .cols-6 td {
   width: 1.6667%;
+}
+
+/* line 97, ../sass/components/_views.scss */
+.more-link {
+  margin: 1ex;
 }
 
 /* line 3, ../sass/components/_sidebars.scss */

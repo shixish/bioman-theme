@@ -14,11 +14,9 @@
 .separated{
   &.views-row {
     padding-bottom: 1em;
-    margin-bottom: .5em;
     border-bottom: 1px solid #085C1C;
   }
   &.views-row.views-row-last {
-    margin-bottom: 0;
     border-bottom: none;
   }
 }
@@ -44,8 +42,42 @@
   vertical-align: center;
 }
 
+.callout-view{
+  border:1px solid darken($body-background-color, 15%);
+  background: lighten($body-background-color, 2%);  
+}
 
+.stripe-view{
 
+  h3{
+    text-transform: uppercase;
+  }
+}
+
+//theme unformatted lists
+/*$unformatted-list-border-color: darken($body-background-color, 20%);
+%unformatted-borders{
+  padding: 1ex;
+  margin-bottom: 0;
+  border-left: 1px solid $unformatted-list-border-color;
+  border-right: 1px solid $unformatted-list-border-color;
+  &.views-row-first{
+    border-top: 1px solid $unformatted-list-border-color;
+  }
+  &.views-row-last{
+    border-bottom: 1px solid $unformatted-list-border-color;
+  }
+}
+div.views-row-odd {
+  background: lighten($body-background-color, 1.5%);
+  @extend %unformatted-borders;
+}
+div.views-row-even {
+  background: darken($body-background-color, 3%);
+  @extend %unformatted-borders;  
+}*/
+
+//theme grids
 .cols-2 td{
   width:50%;
 }
@@ -60,4 +92,8 @@
 }
 .cols-6 td{
   width:1.6667%;
+}
+
+.more-link{
+  margin: 1ex;
 }
