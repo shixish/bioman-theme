@@ -3856,7 +3856,7 @@ tr.selected td {
 /* line 808, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1379383120');
+  background-image: url('../images/progress.gif?1382175212');
 }
 
 /* line 814, ../sass/components/_misc.scss */
@@ -3901,6 +3901,16 @@ a:hover, #navigation .nice-menu-down a:hover {
 /* line 845, ../sass/components/_misc.scss */
 #page {
   margin: 10px auto;
+}
+
+/* line 849, ../sass/components/_misc.scss */
+.link-status-bad a, .link-status-bad #navigation .nice-menu-down a, #navigation .nice-menu-down .link-status-bad a {
+  color: red;
+}
+
+/* line 853, ../sass/components/_misc.scss */
+.link-status-bold a, .link-status-bold #navigation .nice-menu-down a, #navigation .nice-menu-down .link-status-bold a {
+  font-weight: bold;
 }
 
 /* line 1, ../sass/components/_header.scss */
