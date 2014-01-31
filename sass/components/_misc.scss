@@ -846,6 +846,7 @@ a:hover{
   margin: 10px auto;
 }
 
+
 .float-right{
   float: right;
 }
@@ -858,4 +859,12 @@ a:hover{
 
 img.responsive{
   max-width: 100%;
+}
+
+.link-status-bad a{
+  color: red;
+}
+
+.link-status-bold a{
+  font-weight: bold;
 }

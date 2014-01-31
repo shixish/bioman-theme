@@ -3903,21 +3903,31 @@ a:hover, #navigation .nice-menu-down a:hover {
   margin: 10px auto;
 }
 
-/* line 849, ../sass/components/_misc.scss */
+/* line 850, ../sass/components/_misc.scss */
 .float-right {
   float: right;
 }
 
-/* line 853, ../sass/components/_misc.scss */
+/* line 854, ../sass/components/_misc.scss */
 .institution-link-icons {
   float: right;
   margin-left: 7px;
   font-size: 1.05em;
 }
 
-/* line 859, ../sass/components/_misc.scss */
+/* line 860, ../sass/components/_misc.scss */
 img.responsive {
   max-width: 100%;
+}
+
+/* line 864, ../sass/components/_misc.scss */
+.link-status-bad a, .link-status-bad #navigation .nice-menu-down a, #navigation .nice-menu-down .link-status-bad a {
+  color: red;
+}
+
+/* line 868, ../sass/components/_misc.scss */
+.link-status-bold a, .link-status-bold #navigation .nice-menu-down a, #navigation .nice-menu-down .link-status-bold a {
+  font-weight: bold;
 }
 
 /* line 1, ../sass/components/_header.scss */
