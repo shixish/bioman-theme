@@ -94,3 +94,13 @@ li.views-row{
 .more-link{
   margin: 1ex;
 }
+
+.float-left {
+  float: left;
+  margin-right: 1ex;
+}
+
+.cols-3{
+  @include column-count(3);
+  @include column-gap(2ex);
+}

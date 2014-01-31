@@ -363,7 +363,7 @@ img {
   /* Suppress the space beneath the baseline */
   /* vertical-align: bottom; */
   /* Responsive images */
-  max-width: 100%;
+  /*max-width: 100%;*/
   /*height: auto;*/
   /* Correct IE 8 not scaling image height when resized. */
   /*width: auto;*/
@@ -3903,6 +3903,23 @@ a:hover, #navigation .nice-menu-down a:hover {
   margin: 10px auto;
 }
 
+/* line 849, ../sass/components/_misc.scss */
+.float-right {
+  float: right;
+}
+
+/* line 853, ../sass/components/_misc.scss */
+.institution-link-icons {
+  float: right;
+  margin-left: 7px;
+  font-size: 1.05em;
+}
+
+/* line 859, ../sass/components/_misc.scss */
+img.responsive {
+  max-width: 100%;
+}
+
 /* line 1, ../sass/components/_header.scss */
 #header {
   background: white url("../images/bioman-header.jpg") no-repeat;
@@ -3978,15 +3995,15 @@ a:hover, #navigation .nice-menu-down a:hover {
 
 /* line 1, ../sass/components/_slideshow.scss */
 .view-images-on-homepage {
-  margin: .2em auto;
-  padding: .3em;
-  background: #eee;
-  max-width: 900px;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
   -o-border-radius: 0.4em;
   border-radius: 0.4em;
+  margin: .2em auto;
+  padding: .4em;
+  background: #eee;
+  max-width: 900px;
 }
 /* line 8, ../sass/components/_slideshow.scss */
 .view-images-on-homepage .views-field.views-field-field-image, .view-images-on-homepage .file-image {
@@ -4151,6 +4168,26 @@ li.views-row {
 /* line 94, ../sass/components/_views.scss */
 .more-link {
   margin: 1ex;
+}
+
+/* line 98, ../sass/components/_views.scss */
+.float-left {
+  float: left;
+  margin-right: 1ex;
+}
+
+/* line 103, ../sass/components/_views.scss */
+.cols-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  -ms-column-count: 3;
+  -o-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 2ex;
+  -moz-column-gap: 2ex;
+  -ms-column-gap: 2ex;
+  -o-column-gap: 2ex;
+  column-gap: 2ex;
 }
 
 /* line 3, ../sass/components/_sidebars.scss */

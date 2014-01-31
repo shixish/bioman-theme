@@ -21,6 +21,4 @@ Drupal.behaviors.my_custom_behavior = {
 
   }
 };
-
-
 })(jQuery, Drupal, this, this.document);

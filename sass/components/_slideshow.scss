@@ -1,9 +1,9 @@
 .view-images-on-homepage{
+  @include border-radius(.4em);
   margin: .2em auto;
-  padding: .3em;
+  padding: .4em;
   background: #eee;
   max-width: 900px;
-  @include border-radius(.4em);
   
   .views-field.views-field-field-image, .file-image {
     float: left;
