@@ -3856,7 +3856,7 @@ tr.selected td {
 /* line 808, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1379383120');
+  background-image: url('../images/progress.gif?1382175212');
 }
 
 /* line 814, ../sass/components/_misc.scss */
@@ -4054,7 +4054,7 @@ img.responsive {
 }
 
 /* line 2, ../sass/components/_views.scss */
-.views-row.white-background {
+.white-background {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
