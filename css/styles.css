@@ -3623,7 +3623,7 @@ span.field-label {
   margin: 0;
 }
 /* line 599, ../sass/components/_misc.scss */
-tr.odd .form-item, tr.even .form-item {
+tr.odd .form-item, .striped.views-row-odd .form-item, tr.even .form-item, .striped.views-row-even .form-item {
   margin: 0;
 }
 /* line 606, ../sass/components/_misc.scss */
@@ -3732,15 +3732,16 @@ form table ul {
 }
 
 /* line 694, ../sass/components/_misc.scss */
-tr.even,
-tr.odd {
+tr.even, .striped.views-row-even,
+tr.odd,
+.striped.views-row-odd {
   background-color: #eee;
   border-bottom: 1px solid #ccc;
   padding: 0.1em 0.6em;
 }
 
 /* line 699, ../sass/components/_misc.scss */
-tr.even {
+tr.even, .striped.views-row-even {
   background-color: #fff;
 }
 
@@ -4132,61 +4133,81 @@ li.views-row {
   border-radius: 3px;
 }
 
-/* line 61, ../sass/components/_views.scss */
-.striped {
-  padding: 1ex;
-}
-/* line 63, ../sass/components/_views.scss */
-.striped.views-row-odd {
+/* line 62, ../sass/components/_views.scss */
+tr.even, .striped.views-row-even {
   background: #f1f8f0;
 }
+
 /* line 66, ../sass/components/_views.scss */
-.striped.views-row-even {
+tr.odd, .striped.views-row-odd {
   background: #e0f0de;
 }
 
-/* line 72, ../sass/components/_views.scss */
+/* line 70, ../sass/components/_views.scss */
+.striped {
+  padding: 1ex;
+}
+
+/* line 81, ../sass/components/_views.scss */
+.views-table tr {
+  border-bottom: none;
+}
+/* line 84, ../sass/components/_views.scss */
+.views-table th, .views-table td {
+  padding: 5px;
+}
+/* line 87, ../sass/components/_views.scss */
+.views-table th {
+  background: #aed8aa;
+}
+
+/* line 92, ../sass/components/_views.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 97, ../sass/components/_views.scss */
 .view-content h3 {
   text-transform: uppercase;
 }
 
-/* line 78, ../sass/components/_views.scss */
+/* line 103, ../sass/components/_views.scss */
 .cols-2 td {
   width: 50%;
 }
 
-/* line 81, ../sass/components/_views.scss */
+/* line 106, ../sass/components/_views.scss */
 .cols-3 td {
   width: 33.3333%;
 }
 
-/* line 84, ../sass/components/_views.scss */
+/* line 109, ../sass/components/_views.scss */
 .cols-4 td {
   width: 25%;
 }
 
-/* line 87, ../sass/components/_views.scss */
+/* line 112, ../sass/components/_views.scss */
 .cols-5 td {
   width: 20%;
 }
 
-/* line 90, ../sass/components/_views.scss */
+/* line 115, ../sass/components/_views.scss */
 .cols-6 td {
   width: 1.6667%;
 }
 
-/* line 94, ../sass/components/_views.scss */
+/* line 119, ../sass/components/_views.scss */
 .more-link {
   margin: 1ex;
 }
 
-/* line 98, ../sass/components/_views.scss */
+/* line 123, ../sass/components/_views.scss */
 .float-left {
   float: left;
   margin-right: 1ex;
 }
 
-/* line 103, ../sass/components/_views.scss */
+/* line 128, ../sass/components/_views.scss */
 .cols-3 {
   -webkit-column-count: 3;
   -moz-column-count: 3;
