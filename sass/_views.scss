@@ -1,0 +1,106 @@
+//Theme events on the homepage
+.views-row.white-background{
+  @include border-radius(3px);
+  background:white;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+//theme lists
+li.views-row{
+  margin-bottom: 1em;
+}
+
+.views-row.views-row-last {
+  margin-bottom: 0;
+}
+
+.separated{
+  &.views-row {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #085C1C;
+  }
+  &.views-row.views-row-last {
+    border-bottom: none;
+  }
+}
+
+.views-field-field-banner-image .field-content{
+  line-height:0; //this was adding a little extra padding under the image...
+}
+
+.views-field-field-free-tags{
+  font-size: 1.5ex;
+}
+
+.views-view-grid{
+  text-align: center;
+  td{
+    vertical-align: top;
+    padding: 1em 1ex;
+    /*border: 1px dashed #DDD;*/
+  }
+}
+
+.vertical-center{
+  vertical-align: center;
+}
+
+.view.callout{
+  .view-content{
+    @include border-radius(3px);
+    border:1px solid darken($body-background-color, 20%);
+    background: lighten($body-background-color, 2%);
+    .views-row{
+      @include border-radius(3px);
+    }
+  }
+}
+.striped{
+  padding: 1ex;
+  &.views-row-odd {
+    background: lighten($body-background-color, 2%);
+  }
+  &.views-row-even {
+    background: darken($body-background-color, 3%);
+  }
+}
+
+.view-content{
+  h3{
+    text-transform: uppercase;
+  }
+}
+
+//theme grids
+.cols-2 td{
+  width:50%;
+}
+.cols-3 td{
+  width:33.3333%;
+}
+.cols-4 td{
+  width:25%;
+}
+.cols-5 td{
+  width:20%;
+}
+.cols-6 td{
+  width:1.6667%;
+}
+
+.more-link{
+  margin: 1ex;
+}
+
+.float-left {
+  float: left;
+  margin-right: 1ex;
+}
+
+.cols-3{
+  @include column-count(3);
+  @include column-gap(5ex);
+}

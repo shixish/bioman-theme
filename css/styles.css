@@ -4265,6 +4265,12 @@ tr.odd, .striped.views-row-odd {
   font-size: .75em;
 }
 
+/* line 1, ../sass/components/_profile.scss */
+.pane-user-picture {
+  float: right;
+  margin: 0 1em 1em 0;
+}
+
 /**
  * @file
  * Print styling
