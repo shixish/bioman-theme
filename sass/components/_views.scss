@@ -1,5 +1,5 @@
 //Theme events on the homepage
-.white-background{
+.views-row.white-background{
   @include border-radius(3px);
   background:white;
   padding: 5px;
@@ -58,39 +58,14 @@ li.views-row{
     }
   }
 }
-
-tr.even{
-  background: lighten($body-background-color, 2%);
-}
-
-tr.odd{
-  background: darken($body-background-color, 3%);
-}
-
 .striped{
   padding: 1ex;
-  &.views-row-even {
-    @extend tr.even;
-  }
   &.views-row-odd {
-    @extend tr.odd;
+    background: lighten($body-background-color, 2%);
   }
-}
-
-.views-table{
-  tr{
-    border-bottom: none;
+  &.views-row-even {
+    background: darken($body-background-color, 3%);
   }
-  th, td{
-    padding: 5px;
-  }
-  th{
-    background: darken($body-background-color, 18%);
-  }
-}
-
-.centered{
-  text-align: center;
 }
 
 .view-content{
@@ -123,9 +98,4 @@ tr.odd{
 .float-left {
   float: left;
   margin-right: 1ex;
-}
-
-.cols-3{
-  @include column-count(3);
-  @include column-gap(2ex);
 }
